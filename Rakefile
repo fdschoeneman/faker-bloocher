@@ -14,11 +14,11 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "faker-boontling"
-  gem.homepage = "http://github.com/fdschoeneman/faker-boontling"
+  gem.name = "faker-bloocher"
+  gem.homepage = "http://github.com/fdschoeneman/faker-bloocher"
   gem.license = "MIT"
-  gem.summary = %Q{Join the harpin' tidrick}
-  gem.description = %Q{Boontling is a jargon spoken only in Boonville in Northern California.  Faker-boontling provides developers with methods to create dummy text in this jargon.}
+  gem.summary = %Q{To blooch is to bullshit.  Join the harpin' tidrick}
+  gem.description = %Q{Boontling is a jargon spoken only in Boonville in Northern California provide.  To "blooch" means to bullshit, and faker-bloocher is designed to help developers write bullshit text instead of lorem ipsum.}
   gem.email = "fred.schoeneman@gmail.com"
   gem.authors = ["Frederick D. Schoeneman"]
   # dependencies defined in Gemfile
