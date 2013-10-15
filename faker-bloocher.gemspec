@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "faker-bloocher.gemspec",
     "faker_review.rb",
     "lib/boonville_wineries.rb",
     "lib/faker/boontling.rb",
