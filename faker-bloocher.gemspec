@@ -29,9 +29,8 @@ Gem::Specification.new do |s|
     "faker-bloocher.gemspec",
     "faker_review.rb",
     "lib/boonville_wineries.rb",
-    "lib/faker/boontling.rb",
+    "lib/faker/bloocher.rb",
     "lib/faker_review.rb",
-    "lib/miscellaneous_data.rb",
     "test/helper.rb",
     "test/test_faker-bloocher.rb"
   ]
