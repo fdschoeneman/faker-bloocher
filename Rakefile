@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "faker-boontling"
   gem.homepage = "http://github.com/fdschoeneman/faker-boontling"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Join the harpin' tidrick}
+  gem.description = %Q{Boontling is a jargon spoken only in Boonville in Northern California.  Faker-boontling provides developers with methods to create dummy text in this jargon.}
   gem.email = "fred.schoeneman@gmail.com"
   gem.authors = ["Frederick D. Schoeneman"]
   # dependencies defined in Gemfile
@@ -30,14 +30,6 @@ Rake::TestTask.new(:test) do |test|
   test.libs << 'lib' << 'test'
   test.pattern = 'test/**/test_*.rb'
   test.verbose = true
-end
-
-require 'rcov/rcovtask'
-Rcov::RcovTask.new do |test|
-  test.libs << 'test'
-  test.pattern = 'test/**/test_*.rb'
-  test.verbose = true
-  test.rcov_opts << '--exclude "gems/*"'
 end
 
 task :default => :test
