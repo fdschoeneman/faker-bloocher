@@ -11,12 +11,6 @@ module Faker
         first + second + third 
       end
 
-      def reviews(count)  
-        count.to_i.times do |n| 
-          Faker::Bloocher.review
-        end
-      end
-
       def intro 
         [
           "Remarkable",
