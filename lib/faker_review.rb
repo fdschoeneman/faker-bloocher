@@ -11,28 +11,91 @@ module Faker
         first + second + third 
       end
 
+      def reviews(count)  
+        count.to_i.times do |n| 
+          Faker::Bloocher.review
+        end
+      end
+
       def intro 
         [
-          "Remarkable","Francophonic","Juicy","Desperate","Serviceable","Generous","Glassy",
-          "Blunt","Sturdy","Elegant","Lean","Spare","Simple","Self-righteous",
-          "Chewy","Powerful","Soft","Ripe in flavor","Ready to drink","Well focused",
-          "Medium-weight","Heavy-weight",    "Light-weight","Austere",
-          "Light, simple","Modest","Markedly improved",
-          "Nearly matured","Almost matured","Somewhat matured","Overaged",
-          "Finely balanced","A firm, full textured",
-          "Fully refined","Unnatural","Historic","Classic","Crisp",
-          "Neo-classic","Modern","Overdone",
-          "Meaty","Unrefined","Direct","Deep and smokey",
-          "Dark and mysterious","Good","Evil","Impressive","Unimpressive",
-          "Big and strong","Wicked","Raw","Wimpy","Overdressed","Sweet","Rude",
-          "Creepy","Open-ended","Rounded","Corpulent","Overbearing","Twisted","Clean",
-          "Fun","Intense","Egocentric","Intelligently done","Unstinting","Flourished"
+          "Remarkable",
+          "Francophonic",
+          "Juicy",
+          "Desperate",
+          "Serviceable",
+          "Generous",
+          "Glassy",
+          "Blunt",
+          "Sturdy",
+          "Elegant",
+          "Lean",
+          "Spare",
+          "Simple",
+          "Self-righteous",
+          "Chewy",
+          "Powerful",
+          "Soft",
+          "Ripe in flavor",
+          "Ready to drink",
+          "Well focused",
+          "Medium-weight",
+          "Heavy-weight",    
+          "Light-weight",
+          "Austere",
+          "Light, simple",
+          "Modest",
+          "Markedly improved",
+          "Nearly matured",
+          "Almost matured",
+          "Somewhat matured",
+          "Overaged",
+          "Finely balanced",
+          "A firm, full textured",
+          "Fully refined",
+          "Unnatural",
+          "Historic",
+          "Classic",
+          "Crisp",
+          "Neo-classic",
+          "Modern",
+          "Overdone",
+          "Meaty",
+          "Unrefined",
+          "Direct",
+          "Deep and smokey",
+          "Dark and mysterious",
+          "Good",
+          "Evil",
+          "Impressive",
+          "Unimpressive",
+          "Big and strong",
+          "Wicked",
+          "Raw",
+          "Wimpy",
+          "Overdressed",
+          "Sweet",
+          "Rude",
+          "Creepy",
+          "Open-ended",
+          "Rounded",
+          "Corpulent",
+          "Overbearing",
+          "Twisted",
+          "Clean",
+          "Fun",
+          "Intense",
+          "Egocentric",
+          "Intelligently done",
+          "Unstinting",
+          "Flourished"
         ].sample
       end
 
       def intmodifier
         [
-          "but","and","almost","but equally","nearly","at the same time", 
+          "but",
+          "and","almost","but equally","nearly","at the same time", 
           "yet paradoxically","nevertheless","yet oxymoronically","but inevitably"
         ].sample
       end

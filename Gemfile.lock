@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.3.5)
     builder (3.2.2)
+    coderay (1.0.9)
     faker (1.2.0)
       i18n (~> 0.5)
     faraday (0.8.8)
@@ -15,6 +16,8 @@ GEM
       multi_json (~> 1.4)
       nokogiri (~> 1.5.2)
       oauth2
+    given_core (3.1.1)
+      sorcerer (>= 0.3.7)
     hashie (2.0.5)
     highline (1.6.19)
     httpauth (0.2.0)
@@ -31,7 +34,11 @@ GEM
     json (1.8.0)
     jwt (0.1.8)
       multi_json (>= 1.5)
+    method_source (0.8.2)
     minitest (5.0.8)
+    minitest-given (3.1.1)
+      given_core (= 3.1.1)
+      minitest (> 4.3)
     multi_json (1.8.2)
     multi_xml (0.5.5)
     multipart-post (1.2.0)
@@ -43,10 +50,16 @@ GEM
       multi_json (~> 1.0)
       multi_xml (~> 0.5)
       rack (~> 1.2)
+    pry (0.9.12.2)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
     rack (1.5.2)
     rake (10.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
+    slop (3.4.6)
+    sorcerer (1.0.2)
 
 PLATFORMS
   ruby
@@ -56,4 +69,6 @@ DEPENDENCIES
   faker (~> 1.2.0)
   jeweler (~> 1.8.7)
   minitest
+  minitest-given
+  pry
   rdoc (~> 3.12)

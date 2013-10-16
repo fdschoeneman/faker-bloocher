@@ -55,7 +55,7 @@ module Faker
           "Clone 113",
           "Calera",
           "UCD4",
-          "2A",
+          "2A"
         ]
       end
 
@@ -69,7 +69,7 @@ module Faker
           "deep end", 
           "reserve",
           "estate"
-        ].sample
+        ]
       end
 
       def differentiator 
@@ -181,21 +181,21 @@ module Faker
       end
 
       def rootstocks
-        %w[
+        [
           "3309c", 
-          Gravesac", 
-          5c", 
-          borner", 
-          SO4", 
-          Binova", 
-          125AA", 
-          5BB", 
-          34EM", 
-          420A", 
-          161-49", 
-          333EM", 
-          Fercal", 
-          Riparia Gloire", 
+          "Gravesac", 
+          "5c", 
+          "borner", 
+          "SO4", 
+          "Binova", 
+          "125AA", 
+          "5BB", 
+          "34EM", 
+          "420A", 
+          "161-49", 
+          "333EM", 
+          "Fercal", 
+          "Riparia Gloire", 
           "196-17", 
           "101-14", 
           "R99", 
@@ -223,14 +223,14 @@ module Faker
       end
       
       def topo_aspect
-        topo_aspect.sample
+        topo_aspects.sample
       end
 
       def soil_types
         [
           "alluvial",
           "basalt",
-          "boulbenes"
+          "boulbenes",
           "chalk",
           "clay",
           "dolomite",
@@ -250,7 +250,7 @@ module Faker
           "terra rossa",
           "tufa",
           "ultisoil",
-          "volcanic",
+          "volcanic"
         ]
       end
 
@@ -305,7 +305,7 @@ module Faker
           "Saintsbury", 
           "Savoy Vineyard", 
           "Stewart Vineyard",
-          "Toulouse Vineyards"
+          "Toulouse Vineyards",
           "Valley Foothills Vineyard", 
           "Weir Vineyard", 
           "Wightman Vineyard", 
@@ -397,7 +397,7 @@ module Faker
           "tempraniloo",
           "trebbiano",
           "viognier",
-          "zinfandel",
+          "zinfandel"
         ]
       end
 
