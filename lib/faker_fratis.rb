@@ -394,7 +394,7 @@ module Faker
           "semillon",
           "syrah",
           "shiraz",
-          "tempraniloo",
+          "tempranillo",
           "trebbiano",
           "viognier",
           "zinfandel"
